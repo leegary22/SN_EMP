@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>AES</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>1f2f5f203bb08e500fab6b0c95e45a8e</logo>
+        <menu/>
+        <name>KKP (Employee Loan)</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_snc_kkp_employ_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>KKP (Employee Loan)</short_description>
+        <source>x_snc_kkp_employ_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:46:45</sys_created_on>
+        <sys_id>6e2f1f203bb08e500fab6b0c95e45af2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:46:48</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e2f1f203bb08e500fab6b0c95e45af2"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>loanlogo.png</file_name>
+        <hash>523e31d80c6a8fc12e5d9b52596f9077adfefb4eff0e2136c2e8a8b4585802c3</hash>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>3567</size_bytes>
+        <size_compressed>3578</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:46:48</sys_created_on>
+        <sys_id>1f2f5f203bb08e500fab6b0c95e45a8e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:46:48</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>6e2f1f203bb08e500fab6b0c95e45af2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="loanlogo.png" sys_id="1f2f5f203bb08e500fab6b0c95e45a8e">1f2f5f203bb08e500fab6b0c95e45a8e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:46:48</sys_created_on>
+        <sys_id>932f5f203bb08e500fab6b0c95e45a8f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4760</length>
+        <position>1</position>
+        <sys_attachment display_value="loanlogo.png" sys_id="1f2f5f203bb08e500fab6b0c95e45a8e">1f2f5f203bb08e500fab6b0c95e45a8e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:46:48</sys_created_on>
+        <sys_id>172f5f203bb08e500fab6b0c95e45a8f</sys_id>
+    </sys_attachment_doc>
+</record_update>
