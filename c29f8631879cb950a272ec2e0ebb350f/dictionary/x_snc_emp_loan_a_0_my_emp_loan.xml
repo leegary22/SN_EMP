@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b7645a7987dcb950a272ec2e0ebb350b" extends="task" label="My Emp Loan" max_length="40" name="x_snc_emp_loan_a_0_my_emp_loan" type="collection">
+        <element label="Active Month" max_length="40" name="active_month" read_only="true" type="integer"/>
+        <element label="DSR" max_length="40" name="dsr" read_only="true" type="integer"/>
+        <element label="Loan Date" max_length="40" name="loan_date" type="glide_date"/>
+        <element label="Loan Limit" max_length="38" name="loan_limit" read_only="true" type="integer"/>
+        <element choice="3" label="Loan Type" mandatory="true" max_length="40" name="loan_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Housing" sequence="0" value="housing"/>
+                <element inactive_on_update="false" label="Car" sequence="1" value="car"/>
+                <element inactive_on_update="false" label="Multiple Loan" sequence="2" value="multiple_loan"/>
+            </choice>
+        </element>
+        <element label="Pension Date" mandatory="true" max_length="40" name="pension_date" type="glide_date"/>
+        <element label="Salary" max_length="38" name="salary" read_only="true" type="decimal"/>
+    </element>
+</database>
