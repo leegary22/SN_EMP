@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Raise a employee loan">4fa61e358710f950a272ec2e0ebb358b</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 16:01:44</sys_created_on>
+        <sys_id>0e17d2f58710f950a272ec2e0ebb35c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Raise a employee loan</sys_name>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0e17d2f58710f950a272ec2e0ebb35c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 16:01:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</application>
+        <file_path/>
+        <instance_id>061676641bcbedd832182f8dee4bcbaf</instance_id>
+        <instance_name>demotechnologywf34527</instance_name>
+        <name>sc_cat_item_catalog_0e17d2f58710f950a272ec2e0ebb35c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Raise a employee loan">4fa61e358710f950a272ec2e0ebb358b</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-28 16:01:44</sys_created_on><sys_id>0e17d2f58710f950a272ec2e0ebb35c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Raise a employee loan</sys_name><sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package><sys_policy/><sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope><sys_update_name>sc_cat_item_catalog_0e17d2f58710f950a272ec2e0ebb35c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-28 16:01:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1702546221</payload_hash>
+        <record_name>Service Catalog.Raise a employee loan</record_name>
+        <reverted_from/>
+        <source>029f8631879cb950a272ec2e0ebb355e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 16:01:44</sys_created_on>
+        <sys_id>1e17d2f58710f950a272ec2e0ebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1899d3c08380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 16:01:44</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5e17d2f53110f9508277b2f051643bc3</update_guid>
+        <update_guid_history>5e17d2f53110f9508277b2f051643bc3:-1702546221</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Raise a employee loan">8c3712398710f950a272ec2e0ebb35ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 16:02:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>285f1db5edb346b09774c7c2798d6be1</sys_id>
+        <sys_metadata>0e17d2f58710f950a272ec2e0ebb35c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Raise a employee loan</sys_name>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_parent display_value="Raise a employee loan">4fa61e358710f950a272ec2e0ebb358b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_scope_delete display_value="">182e8406ad17405c8034b44a26b16510</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0e17d2f58710f950a272ec2e0ebb35c0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0e17d2f58710f950a272ec2e0ebb35c0">1e17d2f58710f950a272ec2e0ebb35c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 16:02:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe29b16bd0250f950c17df68497f5bdaa</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c29f8631879cb950a272ec2e0ebb350f</scope_name>
+        <serialized_content>{"FlowDesigner:FDe29b16bd0250f950c17df68497f5bdaa":{"empid":"String","empid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"empid\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"31455596-a356-4ec9-b7dd-6390bfae8f24\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"2887ccff-e4dc-4ec4-bdbf-64f881e1f3b1\"}"},"salary":"String","salary.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"salary\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"8fb91ba0-b05f-45f2-bc8d-092e6da031c2\"}"}},"FlowDesigner:FDe29b16bd0250f950c17df68497f5bdaa.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"716909da-37f0-408f-981e-acaed086f1a3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe29b16bd0250f950c17df68497f5bdaa\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 16:21:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a69b16bd8750f950a272ec2e0ebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe29b16bd0250f950c17df68497f5bdaa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name>sys_complex_object_a69b16bd8750f950a272ec2e0ebb35aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 16:21:26</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

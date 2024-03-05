@@ -1,0 +1,3158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>limit_loan_calculation</internal_name>
+        <label_cache>[{"name":"{{action.salary}}","label":"action➛salary","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dsr}}","label":"action➛dsr","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.calc_active_month}}","label":"action➛calc_active_month","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loantype}}","label":"action➛loantype","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41d58005-65b2-44d2-900b-f8316b2be668].pvtot}}","label":"step➛Script step➛pvTot","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"69ce61c0-23c2-4eca-8e86-eb24b1f9eac1"}}]</label_cache>
+        <master_snapshot>716cfc4a87d4bd50a272ec2e0ebb3510</master_snapshot>
+        <name>Limit loan Calculation</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:34:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b4c227d87d4f950a272ec2e0ebb35c6</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>Limit loan Calculation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9b4c227d87d4f950a272ec2e0ebb35c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:24</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9b4c227d87d4f950a272ec2e0ebb35c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 03:49:51</sys_created_on>
+        <sys_id>8f29f00a8794bd50a272ec2e0ebb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 03:49:51</sys_updated_on>
+        <value/>
+        <variable display_value="pv">b229f00a8794bd50a272ec2e0ebb3500</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9b4c227d87d4f950a272ec2e0ebb35c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>93ece2b18718f950a272ec2e0ebb35bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"df2995bf-230c-47d5-ad35-5c1d7a49704e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">1bece2b18718f950a272ec2e0ebb35ad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>9b4c227d87d4f950a272ec2e0ebb35c6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>dfece2b18718f950a272ec2e0ebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">5bece2b18718f950a272ec2e0ebb35b2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pv</field>
+        <id>9b4c227d87d4f950a272ec2e0ebb35c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 03:49:51</sys_created_on>
+        <sys_id>0b29f00a8794bd50a272ec2e0ebb3559</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:51:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</table>
+        <value>{{step[41d58005-65b2-44d2-900b-f8316b2be668].pvtot}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>9b4c227d87d4f950a272ec2e0ebb35c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>5fece2b18718f950a272ec2e0ebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>9b4c227d87d4f950a272ec2e0ebb35c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>9bece2b18718f950a272ec2e0ebb35ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT IN8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</action>
+        <cid>41d58005-65b2-44d2-900b-f8316b2be668</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>8bece2b18718f950a272ec2e0ebb3583</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:55:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8bece2b18718f950a272ec2e0ebb3583</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>17ece2b18718f950a272ec2e0ebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value/>
+        <variable display_value="">cbece2b18718f950a272ec2e0ebb358b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8bece2b18718f950a272ec2e0ebb3583</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>97ece2b18718f950a272ec2e0ebb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8bece2b18718f950a272ec2e0ebb3583</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>9bece2b18718f950a272ec2e0ebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value/>
+        <variable display_value="">8fece2b18718f950a272ec2e0ebb3591</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8bece2b18718f950a272ec2e0ebb3583</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>9fece2b18718f950a272ec2e0ebb35a8</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:55:42</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+      gs.info('troubleshoot');
+  
+      var ratevalue = 5;
+
+      if (inputs.inloantype == 'Housing'){
+            var rate = 5;
+      }else {rate = 6;}
+
+      var fv = 0;
+      var type = 0;
+      var rate = Number((ratevalue/100)/12);
+      var nper = Number(inputs.incalc_active_month);
+      var dsr = Number(inputs.indsr/100);
+      var salary = Number(inputs.insalary);
+      var pmt = Number(dsr*salary);
+  	  //var finalpv = 0;
+
+		//gs.info(pmt);  
+		//gs.info(dsr);  
+		//gs.info(rate);  
+
+
+      	  function trunc (x, posiciones = 0) {
+            var s = x.toString()
+            var l = s.length
+            var decimalLength = s.indexOf('.') + 1
+            var numStr = s.substr(0, decimalLength + posiciones)
+            return Number(numStr)
+          }
+          
+          function conv_number(expr, decplaces) {
+            var str = "" + Math.round(expr * Math.pow(10, decplaces));
+            while (str.length &lt;= decplaces) {
+              str = "0" + str;
+            }
+            var decpoint = str.length - decplaces;
+            return (str.substring(0, decpoint) + "." + str.substring(decpoint, str.length));
+          }
+          
+          function pv(rate, nper, pmt, fv,type) {
+            if (rate == 0){ 
+              pv_value = -(fv + (pmt * nper));
+            } else {
+              x = Math.pow(1 + rate, -nper);
+              y = Math.pow(1 + rate, nper);
+              pv_value = -(x * (fv * rate - pmt + y * pmt)) / rate;
+            }
+            pv_value = conv_number(pv_value, 2);
+            return (trunc(pv_value*-1, 2));
+          }   
+  
+           outputs.pvtot = Number(pv(rate, nper, pmt, fv, type));
+  		   
+          //gs.info('numtotalpv');
+          //gs.info(outputs.pvtot);
+  
+  
+  
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8bece2b18718f950a272ec2e0ebb3583</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>d7ece2b18718f950a272ec2e0ebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <value/>
+        <variable display_value="">0bece2b18718f950a272ec2e0ebb358f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>5fece2b18718f950a272ec2e0ebb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>incalc_active_month</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>1fece2b18718f950a272ec2e0ebb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</table>
+        <value>{{action.calc_active_month}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>indsr</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>93ece2b18718f950a272ec2e0ebb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</table>
+        <value>{{action.dsr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inloantype</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>dfece2b18718f950a272ec2e0ebb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</table>
+        <value>{{action.loantype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>insalary</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>5bece2b18718f950a272ec2e0ebb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</table>
+        <value>{{action.salary}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8bece2b18718f950a272ec2e0ebb3583</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>17ece2b18718f950a272ec2e0ebb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8bece2b18718f950a272ec2e0ebb3583^id=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8bece2b18718f950a272ec2e0ebb3583^sys_idNOT IN0bece2b18718f950a272ec2e0ebb358f,8fece2b18718f950a272ec2e0ebb3591,c3ece2b18718f950a272ec2e0ebb3594,cbece2b18718f950a272ec2e0ebb358b"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>indsr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8bece2b18718f950a272ec2e0ebb3583</model>
+        <model_id>8bece2b18718f950a272ec2e0ebb3583</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>0bece2b18718f950a272ec2e0ebb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incalc_active_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8bece2b18718f950a272ec2e0ebb3583</model>
+        <model_id>8bece2b18718f950a272ec2e0ebb3583</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>8fece2b18718f950a272ec2e0ebb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inloantype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8bece2b18718f950a272ec2e0ebb3583</model>
+        <model_id>8bece2b18718f950a272ec2e0ebb3583</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>c3ece2b18718f950a272ec2e0ebb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>insalary</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Script step">8bece2b18718f950a272ec2e0ebb3583</model>
+        <model_id>8bece2b18718f950a272ec2e0ebb3583</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8bece2b18718f950a272ec2e0ebb3583</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>cbece2b18718f950a272ec2e0ebb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8bece2b18718f950a272ec2e0ebb3583^sys_idNOT IN7ad4918a87dcbd50a272ec2e0ebb3593"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=69ce61c0-23c2-4eca-8e86-eb24b1f9eac1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pvtot</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pvTot</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8bece2b18718f950a272ec2e0ebb3583</model>
+        <model_id>8bece2b18718f950a272ec2e0ebb3583</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8bece2b18718f950a272ec2e0ebb3583</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 05:50:48</sys_created_on>
+        <sys_id>7ad4918a87dcbd50a272ec2e0ebb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:50:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8bece2b18718f950a272ec2e0ebb3583"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_8bece2b18718f950a272ec2e0ebb3583^sys_idNOT IN3ed4918a87dcbd50a272ec2e0ebb3596"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pvtot</element>
+        <help/>
+        <hint/>
+        <label>pvTot</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8bece2b18718f950a272ec2e0ebb3583</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 05:50:48</sys_created_on>
+        <sys_id>3ed4918a87dcbd50a272ec2e0ebb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:50:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT IN39acea7987d4f950a272ec2e0ebb354a,75acae318718f950a272ec2e0ebb3581,b1acae318718f950a272ec2e0ebb3585,fdacae318718f950a272ec2e0ebb3588"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal,uiUniqueId=7f87c486-5094-44ea-887a-4abc0e4c800d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>salary</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>salary</label>
+        <mandatory>false</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>39acea7987d4f950a272ec2e0ebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=39acea7987d4f950a272ec2e0ebb354a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=e7ff4fb7-75e8-4091-813b-6376b338c185</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dsr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>dsr</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>75acae318718f950a272ec2e0ebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=75acae318718f950a272ec2e0ebb3581"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5d0fb8c0-26a3-40d0-82ed-c7a803f329e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>calc_active_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>calc_active_month</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>b1acae318718f950a272ec2e0ebb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b1acae318718f950a272ec2e0ebb3585"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8fe994d1-49f5-431b-9089-fa8bb50cb693</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loantype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>loantype</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>fdacae318718f950a272ec2e0ebb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fdacae318718f950a272ec2e0ebb3588"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT IN1bece2b18718f950a272ec2e0ebb35ad,5bece2b18718f950a272ec2e0ebb35b2,b229f00a8794bd50a272ec2e0ebb3500"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=8e158770-bf71-4939-8d14-73bf16fde5f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>1bece2b18718f950a272ec2e0ebb35ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 03:49:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1bece2b18718f950a272ec2e0ebb35ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1bece2b18718f950a272ec2e0ebb35ad"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f517d6b2-eb70-41ed-b419-77663a1e574c,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>5bece2b18718f950a272ec2e0ebb35b2</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5bece2b18718f950a272ec2e0ebb35b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bece2b18718f950a272ec2e0ebb35b2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d534230c-64cb-4cb8-8b8e-268c94edfe9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pv</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pv</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</model>
+        <model_id>9b4c227d87d4f950a272ec2e0ebb35c6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 03:49:51</sys_created_on>
+        <sys_id>b229f00a8794bd50a272ec2e0ebb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 03:49:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b229f00a8794bd50a272ec2e0ebb3500"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b229f00a8794bd50a272ec2e0ebb3500"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT INf9acae318718f950a272ec2e0ebb3590"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>f9acae318718f950a272ec2e0ebb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f9acae318718f950a272ec2e0ebb3590"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT IN35acae318718f950a272ec2e0ebb3584,71acae318718f950a272ec2e0ebb3588,b1acea7987d4f950a272ec2e0ebb354f,bdacae318718f950a272ec2e0ebb358b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>dsr</element>
+        <help/>
+        <hint/>
+        <label>dsr</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>35acae318718f950a272ec2e0ebb3584</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>calc_active_month</element>
+        <help/>
+        <hint/>
+        <label>calc_active_month</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>71acae318718f950a272ec2e0ebb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>salary</element>
+        <help/>
+        <hint/>
+        <label>salary</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>b1acea7987d4f950a272ec2e0ebb354f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loantype</element>
+        <help/>
+        <hint/>
+        <label>loantype</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:35:55</sys_created_on>
+        <sys_id>bdacae318718f950a272ec2e0ebb358b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:35:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT IN3629f00a8794bd50a272ec2e0ebb3504,5fece2b18718f950a272ec2e0ebb35b7,dbece2b18718f950a272ec2e0ebb35b1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pv</element>
+        <help/>
+        <hint/>
+        <label>pv</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 03:49:51</sys_created_on>
+        <sys_id>3629f00a8794bd50a272ec2e0ebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 03:49:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>5fece2b18718f950a272ec2e0ebb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 17:37:06</sys_created_on>
+        <sys_id>dbece2b18718f950a272ec2e0ebb35b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 17:37:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9b4c227d87d4f950a272ec2e0ebb35c6"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9b4c227d87d4f950a272ec2e0ebb35c6^sys_idNOT INda6c308a87d4bd50a272ec2e0ebb358b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"da6c308a87d4bd50a272ec2e0ebb358b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>26a0e50a87d0fd50a272ec2e0ebb3545</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:04:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da6c308a87d4bd50a272ec2e0ebb358b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:25</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>limit_loan_calculation</internal_name>
+        <label_cache>[{"name":"{{action.salary}}","label":"action➛salary","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dsr}}","label":"action➛dsr","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.calc_active_month}}","label":"action➛calc_active_month","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loantype}}","label":"action➛loantype","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41d58005-65b2-44d2-900b-f8316b2be668].pvtot}}","label":"step➛Script step➛pvTot","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"69ce61c0-23c2-4eca-8e86-eb24b1f9eac1"}}]</label_cache>
+        <master>true</master>
+        <name>Limit loan Calculation</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Limit loan Calculation">9b4c227d87d4f950a272ec2e0ebb35c6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>716cfc4a87d4bd50a272ec2e0ebb3510</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:51:15</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_variable_value action="delete_multiple" query="document_key=716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>716cfc4a87d4bd50a272ec2e0ebb3510</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>066cfc4a87d4bd50a272ec2e0ebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">8a6cfc4a87d4bd50a272ec2e0ebb3571</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>716cfc4a87d4bd50a272ec2e0ebb3510</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>426cfc4a87d4bd50a272ec2e0ebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value/>
+        <variable display_value="pv">396cfc4a87d4bd50a272ec2e0ebb3569</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>716cfc4a87d4bd50a272ec2e0ebb3510</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>c66cfc4a87d4bd50a272ec2e0ebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"df2995bf-230c-47d5-ad35-5c1d7a49704e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">426cfc4a87d4bd50a272ec2e0ebb356e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pv</field>
+        <id>716cfc4a87d4bd50a272ec2e0ebb3510</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>4a6cfc4a87d4bd50a272ec2e0ebb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</table>
+        <value>{{step[41d58005-65b2-44d2-900b-f8316b2be668].pvtot}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>716cfc4a87d4bd50a272ec2e0ebb3510</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>ce6cfc4a87d4bd50a272ec2e0ebb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>716cfc4a87d4bd50a272ec2e0ebb3510</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>0e6cfc4a87d4bd50a272ec2e0ebb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT IN796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</action>
+        <cid>41d58005-65b2-44d2-900b-f8316b2be668</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>796cfc4a87d4bd50a272ec2e0ebb3524</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>796cfc4a87d4bd50a272ec2e0ebb3524</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>716cfc4a87d4bd50a272ec2e0ebb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value/>
+        <variable display_value="incalc_active_month">3d6cfc4a87d4bd50a272ec2e0ebb353b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>796cfc4a87d4bd50a272ec2e0ebb3524</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>7d6cfc4a87d4bd50a272ec2e0ebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value/>
+        <variable display_value="insalary">796cfc4a87d4bd50a272ec2e0ebb3534</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>796cfc4a87d4bd50a272ec2e0ebb3524</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>b56cfc4a87d4bd50a272ec2e0ebb354b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+      gs.info('troubleshoot');
+  
+      var ratevalue = 5;
+
+      if (inputs.inloantype == 'Housing'){
+            var rate = 5;
+      }else {rate = 6;}
+
+      var fv = 0;
+      var type = 0;
+      var rate = Number((ratevalue/100)/12);
+      var nper = Number(inputs.incalc_active_month);
+      var dsr = Number(inputs.indsr/100);
+      var salary = Number(inputs.insalary);
+      var pmt = Number(dsr*salary);
+  	  //var finalpv = 0;
+
+		//gs.info(pmt);  
+		//gs.info(dsr);  
+		//gs.info(rate);  
+
+
+      	  function trunc (x, posiciones = 0) {
+            var s = x.toString()
+            var l = s.length
+            var decimalLength = s.indexOf('.') + 1
+            var numStr = s.substr(0, decimalLength + posiciones)
+            return Number(numStr)
+          }
+          
+          function conv_number(expr, decplaces) {
+            var str = "" + Math.round(expr * Math.pow(10, decplaces));
+            while (str.length &lt;= decplaces) {
+              str = "0" + str;
+            }
+            var decpoint = str.length - decplaces;
+            return (str.substring(0, decpoint) + "." + str.substring(decpoint, str.length));
+          }
+          
+          function pv(rate, nper, pmt, fv,type) {
+            if (rate == 0){ 
+              pv_value = -(fv + (pmt * nper));
+            } else {
+              x = Math.pow(1 + rate, -nper);
+              y = Math.pow(1 + rate, nper);
+              pv_value = -(x * (fv * rate - pmt + y * pmt)) / rate;
+            }
+            pv_value = conv_number(pv_value, 2);
+            return (trunc(pv_value*-1, 2));
+          }   
+  
+           outputs.pvtot = Number(pv(rate, nper, pmt, fv, type));
+  		   
+          //gs.info('numtotalpv');
+          //gs.info(outputs.pvtot);
+  
+  
+  
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>796cfc4a87d4bd50a272ec2e0ebb3524</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>bd6cfc4a87d4bd50a272ec2e0ebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>796cfc4a87d4bd50a272ec2e0ebb3524</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>bd6cfc4a87d4bd50a272ec2e0ebb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <value/>
+        <variable display_value="indsr">3d6cfc4a87d4bd50a272ec2e0ebb3538</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>756cfc4a87d4bd50a272ec2e0ebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>incalc_active_month</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>756cfc4a87d4bd50a272ec2e0ebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</table>
+        <value>{{action.calc_active_month}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>indsr</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>f96cfc4a87d4bd50a272ec2e0ebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</table>
+        <value>{{action.dsr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inloantype</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>396cfc4a87d4bd50a272ec2e0ebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</table>
+        <value>{{action.loantype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>insalary</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>b16cfc4a87d4bd50a272ec2e0ebb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</table>
+        <value>{{action.salary}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>796cfc4a87d4bd50a272ec2e0ebb3524</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>3d6cfc4a87d4bd50a272ec2e0ebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_796cfc4a87d4bd50a272ec2e0ebb3524^id=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=796cfc4a87d4bd50a272ec2e0ebb3524^sys_idNOT IN3d6cfc4a87d4bd50a272ec2e0ebb3538,3d6cfc4a87d4bd50a272ec2e0ebb353b,3d6cfc4a87d4bd50a272ec2e0ebb353e,796cfc4a87d4bd50a272ec2e0ebb3534"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>indsr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>indsr</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">796cfc4a87d4bd50a272ec2e0ebb3524</model>
+        <model_id>796cfc4a87d4bd50a272ec2e0ebb3524</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>3d6cfc4a87d4bd50a272ec2e0ebb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incalc_active_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>incalc_active_month</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">796cfc4a87d4bd50a272ec2e0ebb3524</model>
+        <model_id>796cfc4a87d4bd50a272ec2e0ebb3524</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>3d6cfc4a87d4bd50a272ec2e0ebb353b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inloantype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inloantype</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">796cfc4a87d4bd50a272ec2e0ebb3524</model>
+        <model_id>796cfc4a87d4bd50a272ec2e0ebb3524</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>3d6cfc4a87d4bd50a272ec2e0ebb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>insalary</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>insalary</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Script step">796cfc4a87d4bd50a272ec2e0ebb3524</model>
+        <model_id>796cfc4a87d4bd50a272ec2e0ebb3524</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>796cfc4a87d4bd50a272ec2e0ebb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=796cfc4a87d4bd50a272ec2e0ebb3524^sys_idNOT IN9df4998a87dcbd50a272ec2e0ebb3516"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=69ce61c0-23c2-4eca-8e86-eb24b1f9eac1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pvtot</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pvTot</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">796cfc4a87d4bd50a272ec2e0ebb3524</model>
+        <model_id>796cfc4a87d4bd50a272ec2e0ebb3524</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 05:51:15</sys_created_on>
+        <sys_id>9df4998a87dcbd50a272ec2e0ebb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:51:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=796cfc4a87d4bd50a272ec2e0ebb3524"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_796cfc4a87d4bd50a272ec2e0ebb3524^sys_idNOT IN95f4998a87dcbd50a272ec2e0ebb3519"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pvtot</element>
+        <help/>
+        <hint/>
+        <label>pvTot</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_796cfc4a87d4bd50a272ec2e0ebb3524</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 05:51:15</sys_created_on>
+        <sys_id>95f4998a87dcbd50a272ec2e0ebb3519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 05:51:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT IN356cfc4a87d4bd50a272ec2e0ebb351f,7d6cfc4a87d4bd50a272ec2e0ebb351b,b56cfc4a87d4bd50a272ec2e0ebb3518,f56cfc4a87d4bd50a272ec2e0ebb3513"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8fe994d1-49f5-431b-9089-fa8bb50cb693</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loantype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>loantype</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>356cfc4a87d4bd50a272ec2e0ebb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=356cfc4a87d4bd50a272ec2e0ebb351f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5d0fb8c0-26a3-40d0-82ed-c7a803f329e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>calc_active_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>calc_active_month</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>7d6cfc4a87d4bd50a272ec2e0ebb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d6cfc4a87d4bd50a272ec2e0ebb351b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=e7ff4fb7-75e8-4091-813b-6376b338c185</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dsr</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>dsr</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>b56cfc4a87d4bd50a272ec2e0ebb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b56cfc4a87d4bd50a272ec2e0ebb3518"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal,uiUniqueId=7f87c486-5094-44ea-887a-4abc0e4c800d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>salary</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>salary</label>
+        <mandatory>false</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>f56cfc4a87d4bd50a272ec2e0ebb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f56cfc4a87d4bd50a272ec2e0ebb3513"/>
+    <sys_hub_action_output action="delete_multiple" query="model=716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT IN396cfc4a87d4bd50a272ec2e0ebb3569,426cfc4a87d4bd50a272ec2e0ebb356e,8a6cfc4a87d4bd50a272ec2e0ebb3571"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d534230c-64cb-4cb8-8b8e-268c94edfe9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>pv</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>pv</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>396cfc4a87d4bd50a272ec2e0ebb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=396cfc4a87d4bd50a272ec2e0ebb3569"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=396cfc4a87d4bd50a272ec2e0ebb3569"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=8e158770-bf71-4939-8d14-73bf16fde5f8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>426cfc4a87d4bd50a272ec2e0ebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=426cfc4a87d4bd50a272ec2e0ebb356e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=426cfc4a87d4bd50a272ec2e0ebb356e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f517d6b2-eb70-41ed-b419-77663a1e574c,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</model>
+        <model_id>716cfc4a87d4bd50a272ec2e0ebb3510</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>8a6cfc4a87d4bd50a272ec2e0ebb3571</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 06:42:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8a6cfc4a87d4bd50a272ec2e0ebb3571"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8a6cfc4a87d4bd50a272ec2e0ebb3571"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT INca6cfc4a87d4bd50a272ec2e0ebb357b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Limit loan Calculation">716cfc4a87d4bd50a272ec2e0ebb3510</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>ca6cfc4a87d4bd50a272ec2e0ebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ca6cfc4a87d4bd50a272ec2e0ebb357b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT IN316cfc4a87d4bd50a272ec2e0ebb3522,796cfc4a87d4bd50a272ec2e0ebb351e,b16cfc4a87d4bd50a272ec2e0ebb351b,f96cfc4a87d4bd50a272ec2e0ebb3517"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loantype</element>
+        <help/>
+        <hint/>
+        <label>loantype</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>316cfc4a87d4bd50a272ec2e0ebb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>calc_active_month</element>
+        <help/>
+        <hint/>
+        <label>calc_active_month</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>796cfc4a87d4bd50a272ec2e0ebb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>dsr</element>
+        <help/>
+        <hint/>
+        <label>dsr</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>b16cfc4a87d4bd50a272ec2e0ebb351b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>salary</element>
+        <help/>
+        <hint/>
+        <label>salary</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:58</sys_created_on>
+        <sys_id>f96cfc4a87d4bd50a272ec2e0ebb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510^sys_idNOT IN866cfc4a87d4bd50a272ec2e0ebb356d,ce6cfc4a87d4bd50a272ec2e0ebb3570,ce6cfc4a87d4bd50a272ec2e0ebb3575"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>pv</element>
+        <help/>
+        <hint/>
+        <label>pv</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>866cfc4a87d4bd50a272ec2e0ebb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>ce6cfc4a87d4bd50a272ec2e0ebb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-29 04:03:59</sys_created_on>
+        <sys_id>ce6cfc4a87d4bd50a272ec2e0ebb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Emp Loan Application" source="x_snc_emp_loan_a_0">c29f8631879cb950a272ec2e0ebb350f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Emp Loan Application">c29f8631879cb950a272ec2e0ebb350f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-29 04:03:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_716cfc4a87d4bd50a272ec2e0ebb3510"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>9b4c227d87d4f950a272ec2e0ebb35c6</sys_id>
+        <latest_snapshot>716cfc4a87d4bd50a272ec2e0ebb3510</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch4-hotfix2a-06-27-2023_07-11-2023_1218.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
